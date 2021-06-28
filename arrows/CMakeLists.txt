@@ -101,4 +101,6 @@ if( KWIVER_ENABLE_VTK)
   add_subdirectory( vtk )
 endif()
 
+add_subdirectory(test)
+
 add_subdirectory( serialize )
